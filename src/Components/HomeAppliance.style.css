@@ -1,0 +1,17 @@
+.home-appliance {
+  width: 100%;
+}
+.home-appliance > h4 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: blue;
+  border: bottom 2px;
+  border-width: 100px;
+}
+.appliances-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -1,0 +1,42 @@
+.banner {
+  width: 100%;
+  background-image: url("https://image.freepik.com/free-vector/online-shopping-banner-template-business-concept-sale-e-commerce_72460-168.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner > h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  opacity: 1;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.banner > p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 20px;
+  text-align: left;
+}
+.banner > button {
+  display: inline;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: orange;
+  border-color: orange;
+  border-radius: 5px;
+  padding: 6px;
+  color: black;
+  transition: transform 100ms;
+}
+.banner > button:hover {
+  background-color: black;
+  color: white;
+  transition: scale(1.06);
+}

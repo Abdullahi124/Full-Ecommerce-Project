@@ -1,0 +1,29 @@
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  z-index: 1;
+  width: 100%;
+  background-color: black;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+  cursor: pointer;
+}
+.header .logo {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 23px;
+  letter-spacing: 2.5px;
+}
+.header-nav {
+  display: flex;
+  position: relative;
+}
+.nav-options {
+  margin-right: 20px;
+  margin-left: 20px;
+  text-transform: uppercase;
+}

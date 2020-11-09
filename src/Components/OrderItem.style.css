@@ -1,0 +1,16 @@
+.order {
+  background-color: white;
+  border: 1px solid lightgrey;
+  padding: 40px;
+  margin: 20px 0;
+}
+.order-id {
+  text-align: right;
+}
+.order-total {
+  text-align: right;
+  font-weight: 500;
+}
+.order-title {
+  text-align: left;
+}

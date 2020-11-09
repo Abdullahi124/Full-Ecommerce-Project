@@ -1,0 +1,30 @@
+.payment-details {
+  display: flex;
+  border-bottom: 1px solid lightgrey;
+  padding: 15px;
+  margin: 0 10px;
+}
+.payment-title {
+  flex: 0.2;
+}
+.payment-address,
+.payment-item,
+.payment-details {
+  flex: 0.8;
+}
+.payment > h2 {
+  font-weight: 500;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  color: black;
+}
+.payment-method {
+  flex: 0.8;
+  margin-bottom: 10px;
+}
+.payment-method > form {
+  max-width: 400px;
+  border: none;
+}

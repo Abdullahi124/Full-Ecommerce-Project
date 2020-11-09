@@ -1,0 +1,32 @@
+.checkout-product > img {
+  object-fit: contain;
+  width: 180px;
+  height: 250px;
+}
+
+.checkout-product {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  margin: 15px;
+  margin-left: 5px;
+}
+.checkout-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.checkout-product > button {
+  display: inline;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: orange;
+  border-color: orange;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: black;
+}
+.checkout-product > button:hover {
+  background-color: black;
+  color: white;
+}

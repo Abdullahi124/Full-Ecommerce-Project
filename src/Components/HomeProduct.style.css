@@ -1,0 +1,28 @@
+.home-product > img {
+  width: 370px;
+  height: 300px;
+  margin: 10 px;
+  object-fit: contain;
+}
+.home-product {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  margin: 10px;
+}
+.home-content {
+  display: flex;
+  margin: 7px;
+  justify-content: space-between;
+}
+.home-content > button {
+  display: inline;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 20px;
+  background-color: orange;
+  border-color: orange;
+  border-radius: 5px;
+  padding: 6px;
+  color: black;
+}
